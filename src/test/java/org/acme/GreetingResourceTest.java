@@ -15,7 +15,7 @@ public class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello from RESTEasy Reactive"));
+             .body(is("Hello World! This is my DOS Quarkus Demo running as a binary in a container!"));
     }
 
 }
